@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\IliasRevitPluginTest_01\bin\Debug\IliasRevitPluginTest_01.dll
+C:\Users\DELL\source\repos\IliasRevitPluginTest_01\bin\Debug\IliasRevitPluginTest_01.pdb
+C:\Users\DELL\source\repos\IliasRevitPluginTest_01\obj\Debug\IliasRevitPluginTest_01.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\IliasRevitPluginTest_01\obj\Debug\IliasRevitPluginTest_01.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\IliasRevitPluginTest_01\obj\Debug\IliasRevitPluginTest_01.dll
+C:\Users\DELL\source\repos\IliasRevitPluginTest_01\obj\Debug\IliasRevitPluginTest_01.pdb
