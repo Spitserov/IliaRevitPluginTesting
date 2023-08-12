@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <RevitAddIns>
-  <AddIn Type="Command">
-    <Name>IliasRevitPluginTest_01</Name>
+  <AddIn Type="Application">
+    <Name>IliasRevitToolbarTest_01</Name>
     <Assembly>IliasRevitPluginTest_01.dll</Assembly>
-    <AddInId>E7668BD6-FC52-4558-86B9-4E1FDB3B9A4F</AddInId>
-    <FullClassName>IliasRevitPluginTest_01.IliasTest_GetElementId</FullClassName>
-    <Text>IliaTest_GetsElementId</Text>
-    <Description>Get the Id from an element</Description>
+    <AddInId>8FE38053-9D2E-48A2-A586-35FF2B889A53</AddInId>
+    <FullClassName>IliasRevitPluginTest_01.ToolbarExternalApplication</FullClassName>
+    <Text>Toolbar</Text>
+    <Description>TestingToolbar</Description>
     <VendorId>IliaSp</VendorId>
     <VendorDescription>IliaSpitserov</VendorDescription>
     <VisibilityMode>AlwaysVisible</VisibilityMode>
