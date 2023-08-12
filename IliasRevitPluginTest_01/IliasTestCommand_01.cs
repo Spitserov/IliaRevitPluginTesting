@@ -22,7 +22,7 @@ namespace IliasRevitPluginTest_01
 
                 if (pickedObj != null)
                 {
-                    TaskDialog.Show("Picked Element ID", pickedObj.ElementId.ToString());
+                    TaskDialog.Show("My Picked Element ID", pickedObj.ElementId.ToString());
                 }
 
                 return Result.Succeeded;
