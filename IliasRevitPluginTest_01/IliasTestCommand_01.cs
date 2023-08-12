@@ -27,9 +27,9 @@ namespace IliasRevitPluginTest_01
 
                 return Result.Succeeded;
             }
-            catch /*(Exception myException)*/
+            catch (Exception myException)
             {
-                //message = myException.Message;           
+                message = myException.Message;           
                 return Result.Failed;
             }
         }
