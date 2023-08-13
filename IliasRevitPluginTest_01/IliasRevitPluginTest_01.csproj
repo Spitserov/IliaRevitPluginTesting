@@ -63,7 +63,6 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Resources\icon.png" />
     <Content Include="Resources\redButtonImage.png" />
     <Content Include="Resources\redButtonImageSmall.png" />
   </ItemGroup>

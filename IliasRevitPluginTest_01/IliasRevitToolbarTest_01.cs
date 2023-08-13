@@ -37,7 +37,7 @@ namespace IliasRevitPluginTest_01
             BitmapImage myImage01 = new BitmapImage(buttonImage01Path);
             
             PushButton myButton01 = commandsPanel.AddItem(button01) as PushButton;
-            myButton01.Image = myImage01;
+            myButton01.LargeImage = myImage01;
             
             //commandsPanel.AddItem(button02);
 
