@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Autodesk.Revit.UI;
 using System.Reflection;
 using Autodesk.Revit.Attributes;
+using System.Windows.Media.Imaging;
 
 namespace IliasRevitPluginTest_01
 {
@@ -25,13 +26,20 @@ namespace IliasRevitPluginTest_01
             //Create Pushbutton
             string assemblyPath = Assembly.GetExecutingAssembly().Location;
             PushButtonData button01 = new PushButtonData("button01", "MyButton_01", assemblyPath, "IliasRevitPluginTest_01.IliasTest_GetElementId");
-            PushButtonData button02 = new PushButtonData("button02", "MyButton_02", assemblyPath, "IliasRevitPluginTest_01.IliasTest_ShowDocInfo");
+            //PushButtonData button02 = new PushButtonData("button02", "MyButton_02", assemblyPath, "IliasRevitPluginTest_01.IliasTest_ShowDocInfo");
 
 
-            //Create Ribbon Panel
+            //Create Ribbon Panel, add buttons
             RibbonPanel commandsPanel = application.CreateRibbonPanel("Ilias Commands Tab", "Ilias Commands Panel");
-            commandsPanel.AddItem(button01);
-            commandsPanel.AddItem(button02);
+
+           // Add image to button
+            Uri buttonImage01Path = new Uri(@"C:\Users\DELL\source\repos\IliaRevitPluginTesting\IliasRevitPluginTest_01\Resources\redButtonImageSmall.png");
+            BitmapImage myImage01 = new BitmapImage(buttonImage01Path);
+            
+            PushButton myButton01 = commandsPanel.AddItem(button01) as PushButton;
+            myButton01.Image = myImage01;
+            
+            //commandsPanel.AddItem(button02);
 
 
             return Result.Succeeded;

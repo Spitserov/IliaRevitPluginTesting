@@ -61,8 +61,11 @@
   <ItemGroup>
     <None Include="IliasRevitPluginTest_01.addin" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Content Include="Resources\icon.png" />
+    <Content Include="Resources\redButtonImage.png" />
+    <Content Include="Resources\redButtonImageSmall.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
