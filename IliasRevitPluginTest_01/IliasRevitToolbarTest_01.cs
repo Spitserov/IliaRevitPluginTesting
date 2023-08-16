@@ -26,21 +26,16 @@ namespace IliasRevitPluginTest_01
             //Create Pushbutton
             string assemblyPath = Assembly.GetExecutingAssembly().Location;
             PushButtonData button01 = new PushButtonData("button01", "MyButton_01", assemblyPath, "IliasRevitPluginTest_01.IliasTest_GetElementId");
-            //PushButtonData button02 = new PushButtonData("button02", "MyButton_02", assemblyPath, "IliasRevitPluginTest_01.IliasTest_ShowDocInfo");
-
 
             //Create Ribbon Panel, add buttons
             RibbonPanel commandsPanel = application.CreateRibbonPanel("Ilias Commands Tab", "Ilias Commands Panel");
 
-           // Add image to button
+            //Add image to button
             Uri buttonImage01Path = new Uri(@"C:\Users\DELL\source\repos\IliaRevitPluginTesting\IliasRevitPluginTest_01\Resources\redButtonImageSmall.png");
             BitmapImage myImage01 = new BitmapImage(buttonImage01Path);
             
             PushButton myButton01 = commandsPanel.AddItem(button01) as PushButton;
             myButton01.LargeImage = myImage01;
-            
-            //commandsPanel.AddItem(button02);
-
 
             return Result.Succeeded;
         }
