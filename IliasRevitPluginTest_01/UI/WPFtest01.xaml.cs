@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace IliasRevitPluginTest_01.UI
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for WPFtest02.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class WPFtest02 : UserControl
     {
-        public UserControl1()
+        public WPFtest02()
         {
             InitializeComponent();
         }
