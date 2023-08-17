@@ -60,15 +60,15 @@
     <Compile Include="IliasRevitToolbarTest_01.cs" />
     <Compile Include="Commands\GetElementID.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UI\WPFtest_01.xaml.cs">
-      <DependentUpon>WPFtest_01.xaml</DependentUpon>
+    <Compile Include="UI\WPF_Test_01.xaml.cs">
+      <DependentUpon>WPF_Test_01.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="IliasRevitPluginTest_01.addin" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="UI\WPFtest_01.xaml">
+    <Page Include="UI\WPF_Test_01.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
