@@ -8,6 +8,8 @@ using System.Reflection;
 using Autodesk.Revit.Attributes;
 using System.Windows.Media.Imaging;
 
+//MyTestComment
+
 namespace IliasRevitPluginTest_01
 {
     [TransactionAttribute(TransactionMode.ReadOnly)]
