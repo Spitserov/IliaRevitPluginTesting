@@ -21,7 +21,7 @@ namespace IliasRevitPluginTest_01
         public Result OnStartup(UIControlledApplication application)
         {
             //Create Ribbon Tab
-            application.CreateRibbonTab("My Commands Tab");
+            application.CreateRibbonTab("Ilia's Commands Tab");
 
             //Create Pushbutton
             string assemblyPath = Assembly.GetExecutingAssembly().Location;
