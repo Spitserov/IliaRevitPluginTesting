@@ -74,6 +74,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\icon01Test.png" />
+    <Content Include="Resources\redButtonImage.png" />
     <Content Include="Resources\redButtonImageSmall.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
